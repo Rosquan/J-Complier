@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as simpleExp libc printnum simpleExp
+ld os
+ld simpleExp
+break set TRAP_HALT

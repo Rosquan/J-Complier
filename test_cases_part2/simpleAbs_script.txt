@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as simpleAbs libc printnum simpleAbs
+ld os
+ld simpleAbs
+break set TRAP_HALT
